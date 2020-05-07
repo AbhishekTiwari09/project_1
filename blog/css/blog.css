@@ -1,0 +1,54 @@
+.container1{
+    display:grid;
+    grid-template-columns: 400px repeat(5,1fr); 
+    grid-template-rows:300px 550px 900px 200px ;
+    grid-template-areas: 
+    "hr hr hr hr hr hr hr hr"
+    "fe fe fe fe fe fe fe fe"
+    "co co co co co co co co"
+    " fr fr fr fr fr fr fr fr";
+    border:2px solid red; 
+  }
+  .box1{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border:2px  red;
+  }    
+      #one1{
+          grid-area:hr ;
+          background-color: #26d0c9;
+          color:rgb(256,256,256);
+          padding-left: 15px;
+          font-size: large;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      #two1{
+        
+          grid-area:fe;
+          background-color:whitesmoke;
+          color:black;
+      }
+      #three1{
+          grid-area:co;
+          background-color: thistle;
+      }
+      #four1{
+            grid-area:fr;
+            background-color:wheat;
+  }
+
+@media(min-width:800px){
+    .container1{
+        display:grid;
+        grid-template-columns: repeat(7,1fr); 
+        grid-template-rows:100px 350px 600px 200px ;
+        grid-template-areas: 
+        "hr hr hr hr hr hr hr hr"
+        "fe fe fe fe fe fe fe fe"
+        "co co co co co co co co"
+        " fr fr fr fr fr fr fr fr";
+        /* justify-content: center; */
+        border:2px solid red; 
+    }
+}

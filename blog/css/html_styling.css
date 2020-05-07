@@ -1,0 +1,21 @@
+.box-header{
+    border:4px double bisque;
+
+}
+#one {
+    background-image: url("https://mk0analyticsindf35n9.kinstacdn.com/wp-content/uploads/2020/03/COVID-19-scaled.jpg");
+    background-size: contain;
+
+}
+#two {
+    background-image: url("https://www.visualcapitalist.com/wp-content/uploads/2020/03/covid-19-trajectories-prev-1000x600.jpg");
+    background-size: contain;
+}
+#three {
+    background-image: url("https://www.clinicaltrialsarena.com/wp-content/uploads/sites/33/2020/02/coronavirus-2.jpg");
+    background-size: contain;
+}
+#four {
+    background-image: url("https://dlg7f0e93aole.cloudfront.net/wp-content/uploads/global-map-of-coronavirus-image-scaled-e1585312392797.jpg");
+    background-size: contain;
+}
